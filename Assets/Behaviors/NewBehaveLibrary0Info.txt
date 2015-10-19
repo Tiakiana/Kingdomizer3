@@ -1,0 +1,23 @@
+Library class:
+BLNewBehaveLibrary0
+
+Trees:
+	HeroAI1_NewTree1
+	Unknown
+
+Contexts:
+	Unknown
+
+Branch priority groups:
+	Unknown
+
+Actions (3: 1 - 4):
+	SearchEnemy (1)
+	MeasureEnemy (2)
+	AttackEnemy (3)
+	Unknown (4)
+
+Decorators (0: 5 - 5):
+	Unknown (5)
+
+Agent classes:

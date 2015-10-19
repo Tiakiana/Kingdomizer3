@@ -51,17 +51,11 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -72,12 +66,32 @@
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
+    <Reference Include="Behave.Unity.Runtime">
+      <HintPath>Assets\Behave\Behave.Unity.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Behave">
+      <HintPath>Assets\Behave\Compatibility\Behave.dll</HintPath>
+    </Reference>
+    <Reference Include="Behave.Unity.Assets">
+      <HintPath>Assets\Behave\Behave.Unity.Assets.dll</HintPath>
+    </Reference>
+    <Reference Include="NewBehaveLibrary0Build">
+      <HintPath>Assets\Behaviors\NewBehaveLibrary0Build.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Attributes.cs" />
-    <Compile Include="Assets\DamagePackage.cs" />
-    <Compile Include="Assets\HeroBehave.cs" />
-    <Compile Include="Assets\MonsterBehave.cs" />
+    <Compile Include="Assets\Behave\BehaveAsset.cs" />
+    <Compile Include="Assets\Scripts\AIAgent.cs" />
+    <Compile Include="Assets\Scripts\Attributes.cs" />
+    <Compile Include="Assets\Scripts\DamagePackage.cs" />
+    <Compile Include="Assets\Scripts\HeroBehave.cs" />
+    <Compile Include="Assets\Scripts\MonsterBehave.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Behave\Changelog.txt" />
+    <None Include="Assets\Behave\License.txt" />
+    <None Include="Assets\Behave\Readme.txt" />
+    <None Include="Assets\Behaviors\NewBehaveLibrary0Info.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

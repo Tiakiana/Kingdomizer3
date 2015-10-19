@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kingdomizer3.CSharp", "Kingdomizer3.CSharp.csproj", "{811543A7-D281-565A-0732-99EB361A10DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kingdomizer3.CSharp.Editor", "Kingdomizer3.CSharp.Editor.csproj", "{EFFEE7B1-DC50-3461-B680-FF804AE9AEC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{811543A7-D281-565A-0732-99EB361A10DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{811543A7-D281-565A-0732-99EB361A10DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{811543A7-D281-565A-0732-99EB361A10DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFEE7B1-DC50-3461-B680-FF804AE9AEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFEE7B1-DC50-3461-B680-FF804AE9AEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFEE7B1-DC50-3461-B680-FF804AE9AEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFEE7B1-DC50-3461-B680-FF804AE9AEC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

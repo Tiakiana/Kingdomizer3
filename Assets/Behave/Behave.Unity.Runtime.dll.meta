@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 349c8eaf078a74144a653bf4a6c55fa3
+labels:
+- Behave
+- AI
+- behaviour
+- artificial
+- intelligence
+- bot
+- robot
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
